@@ -31,7 +31,7 @@ namespace WpfApplication14
         int nie_poprawne = 0;
 
         System.Windows.Threading.DispatcherTimer Timer = new System.Windows.Threading.DispatcherTimer();
-
+        //komentarzr
         private void OnTimedEvent(object sender, EventArgs e)
         {
             this.btn1.Background = b;
@@ -248,7 +248,7 @@ namespace WpfApplication14
         {
             rezize_Buttons();
         }
-
+        // komentarz
         private void zmien_rozmiar2(object sender, EventArgs e)
         {
             if (this.WindowState == WindowState.Maximized)
